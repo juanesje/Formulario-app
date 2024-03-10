@@ -1,0 +1,75 @@
+<!-- activity_registration.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/suscripcion"
+    >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textColor="#257163"
+        android:hint="Nombre"
+        android:textColorHint="#257163"
+        />
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/etName"
+        android:layout_marginTop="16dp"
+        android:textColor="#257163"
+        android:inputType="textEmailAddress"
+        android:hint="Correo"
+        android:textColorHint="#257163"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/etEmail"
+        android:layout_marginTop="16dp"
+        android:textColor="#257163"
+        android:inputType="phone"
+        android:hint="Número de teléfono "
+        android:textColorHint="#257163"/>
+
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/etPhoneNumber"
+        android:layout_marginTop="16dp"
+        android:textColor="#257163"
+        android:inputType="text"
+        android:hint="Cédula"
+        android:textColorHint="#257163"/>
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="presionarDigito"
+        android:text="Inscripcion"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:textColor="#257163"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:textColorHint="#257163"/>
+</RelativeLayout>
+
+

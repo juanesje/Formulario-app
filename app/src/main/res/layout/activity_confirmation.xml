@@ -1,0 +1,43 @@
+<!-- activity_confirmation.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationActivity"
+    android:background="@drawable/suscripcion"
+    >
+
+    <TextView
+        android:id="@+id/tvConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textColor="#257163"
+        android:text="Texto de confirmación aquí"
+    />
+
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="350dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="presionarDigito"
+        android:text="confirmar"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:textColor="#257163"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        />
+</RelativeLayout>
+
+
